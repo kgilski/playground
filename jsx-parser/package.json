@@ -1,0 +1,17 @@
+{
+  "name": "jsx-parser",
+  "version": "0.0.1",
+  "description": "_[Demystifying JSX: Understanding How it Works Behind the Scenes - Elyas Hanafi](https://medium.com/@elyashanafilts/demystifying-jsx-understanding-how-it-works-behind-the-scenes-d89fdb2db640)_",
+  "main": "jsx-parser.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "parseInput": "node index.js",
+    "runOutput": "node output.js"
+  },
+  "author": "Krzysztof Gilski <kgilski93@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "node-html-parser": "^6.1.13"
+  }
+}
