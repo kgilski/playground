@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "target": "ES2020",
+        "module": "NodeNext",
+
+        "rootDir": "src",
+        "outDir": "dist",
+
+        "jsx": "react",
+        "jsxFactory": "h",
+
+        "types": ["nano-jsx", "node", "./global.d.ts"],
+
+        "sourceMap": true,
+        "declaration": true,
+        "disableReferencedProjectLoad": true,
+
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "skipLibCheck": true
+    },
+    "include": ["src/server/*", "src/components/*"]
+}

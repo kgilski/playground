@@ -1,0 +1,29 @@
+{
+    "name": "nano-jsx",
+    "version": "1.0.0",
+    "description": "Nano JSX Tutorial",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node dist/server/server.js",
+        "dev": "tsx watch src/server/server.tsx",
+        "styles": "tailwindcss -i ./src/style.css -o ./dist/style.css --watch",
+        "tsc": "tsc",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Krzysztof Gilski <kgilski93@gmail.com>",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.21.0",
+        "nano-jsx": "^0.1.0",
+        "tsx": "^4.19.1"
+    },
+    "devDependencies": {
+        "@types/express": "^5.0.0",
+        "@types/node": "^22.7.4",
+        "react": "^18.3.1",
+        "tailwindcss": "^3.4.13",
+        "typescript": "^5.6.2"
+    }
+}
